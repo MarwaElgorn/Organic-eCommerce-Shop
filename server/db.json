@@ -1,17 +1,65 @@
 {
   "categories": [
-    { "id": "1", "name": "Fresh Fruit", "image": "/Categories/image1.svg" },
-    { "id": "2", "name": "Fresh Vegetables", "image": "/Categories/image11.svg" },
-    { "id": "3", "name": "Meat & Fish", "image": "/Categories/image12.svg" },
-    { "id": "4", "name": "Snacks", "image": "/Categories/image13.svg" },
-    { "id": "5", "name": "Beverages", "image": "/Categories/image14.svg" },
-    { "id": "6", "name": "Beauty & Health", "image": "/Categories/image15.svg" },
-    { "id": "7", "name": "Bread & Bakery", "image": "/Categories/image16.svg" },
-    { "id": "8", "name": "Baking Needs", "image": "/Categories/image17.svg" },
-    { "id": "9", "name": "Cooking", "image": "/Categories/image18.svg" },
-    { "id": "10", "name": "Diabetic Food", "image": "/Categories/image19.svg" },
-    { "id": "11", "name": "Dish Detergents", "image": "/Categories/image110.svg" },
-    { "id": "12", "name": "Oil", "image": "/Categories/image111.svg" }
+    {
+      "id": "1",
+      "name": "Fresh Fruit",
+      "image": "/Categories/image1.svg"
+    },
+    {
+      "id": "2",
+      "name": "Fresh Vegetables",
+      "image": "/Categories/image11.svg"
+    },
+    {
+      "id": "3",
+      "name": "Meat & Fish",
+      "image": "/Categories/image12.svg"
+    },
+    {
+      "id": "4",
+      "name": "Snacks",
+      "image": "/Categories/image13.svg"
+    },
+    {
+      "id": "5",
+      "name": "Beverages",
+      "image": "/Categories/image14.svg"
+    },
+    {
+      "id": "6",
+      "name": "Beauty & Health",
+      "image": "/Categories/image15.svg"
+    },
+    {
+      "id": "7",
+      "name": "Bread & Bakery",
+      "image": "/Categories/image16.svg"
+    },
+    {
+      "id": "8",
+      "name": "Baking Needs",
+      "image": "/Categories/image17.svg"
+    },
+    {
+      "id": "9",
+      "name": "Cooking",
+      "image": "/Categories/image18.svg"
+    },
+    {
+      "id": "10",
+      "name": "Diabetic Food",
+      "image": "/Categories/image19.svg"
+    },
+    {
+      "id": "11",
+      "name": "Dish Detergents",
+      "image": "/Categories/image110.svg"
+    },
+    {
+      "id": "12",
+      "name": "Oil",
+      "image": "/Categories/image111.svg"
+    }
   ],
   "products": [
     {
@@ -110,19 +158,110 @@
     }
   ],
   "users": [
-    { "id": "ce9", "name": "Aya Elgorn", "email": "www.aya@gmail.com", "password": "fkigiAitAf@cq2", "confirmPassword": "fkigiAitAf@cq2" },
-    { "id": "c4e9", "name": "Marwa Elgorn", "email": "www.marwa@gmail.com", "password": "fkigiAitAf@cq2", "confirmPassword": "fkigiAitAf@cq2" },
-    { "id": "99de", "name": "suzy", "email": "x.suzy@gmail.com", "password": "atAyhj@AuLCxk9", "confirmPassword": "atAyhj@AuLCxk9" },
-    { "id": "fe3c", "name": "m7md abdelaa", "email": "m7medabdelaal@gmail.com", "password": "P@ssw00rd", "confirmPassword": "P@ssw00rd" },
-    { "id": "d0fb", "name": "sdfghj", "email": "asdfgvsd@gmail.com", "password": "0987654", "confirmPassword": "0987654" },
-    { "id": "942b", "name": "rrtyuiioo", "email": "fyggjbkhnl@yahoo.com", "password": "123456", "confirmPassword": "123456" },
-    { "id": "5fb5", "name": "mahmoud", "email": "mahmoud@yahoo.com", "password": "P@ssw00rd", "confirmPassword": "P@ssw00rd" },
-    { "id": "2fc5", "name": "hazem", "email": "hazem@gmail.com", "password": "Hazem@123", "confirmPassword": "Hazem@123" },
-    { "id": "04e2", "name": "farah", "email": "farah@gmail.com", "password": "Farah@123", "confirmPassword": "Farah@123" },
-    { "id": "22d5", "name": "sara", "email": "sara@gmail.com", "password": "Bc@WWEGQL6cs@d", "confirmPassword": "Bc@WWEGQL6cs@d" },
-    { "id": "91fa", "name": "adgjj", "email": "www.darwa@gmail.com", "password": "M@rwa123", "confirmPassword": "M@rwa123" },
-    { "id": "dad3", "name": "mahmoud abdelaal", "email": "www.marwaelgorn@gmail.com", "password": "P@ssw00rd", "confirmPassword": "P@ssw00rd" },
-    { "id": "70fc", "name": "Marwa", "email": "marwa@gmail.com", "password": "P@ssw00rd", "confirmPassword": "P@ssw00rd" },
-    { "id": "28f8", "name": "username", "email": "username@gmail.com", "password": "P@ssw00rd", "confirmPassword": "P@ssw00rd" }
+    {
+      "id": "ce9",
+      "name": "Aya Elgorn",
+      "email": "www.aya@gmail.com",
+      "password": "fkigiAitAf@cq2",
+      "confirmPassword": "fkigiAitAf@cq2"
+    },
+    {
+      "id": "c4e9",
+      "name": "Marwa Elgorn",
+      "email": "www.marwa@gmail.com",
+      "password": "fkigiAitAf@cq2",
+      "confirmPassword": "fkigiAitAf@cq2"
+    },
+    {
+      "id": "99de",
+      "name": "suzy",
+      "email": "x.suzy@gmail.com",
+      "password": "atAyhj@AuLCxk9",
+      "confirmPassword": "atAyhj@AuLCxk9"
+    },
+    {
+      "id": "fe3c",
+      "name": "m7md abdelaa",
+      "email": "m7medabdelaal@gmail.com",
+      "password": "P@ssw00rd",
+      "confirmPassword": "P@ssw00rd"
+    },
+    {
+      "id": "d0fb",
+      "name": "sdfghj",
+      "email": "asdfgvsd@gmail.com",
+      "password": "0987654",
+      "confirmPassword": "0987654"
+    },
+    {
+      "id": "942b",
+      "name": "rrtyuiioo",
+      "email": "fyggjbkhnl@yahoo.com",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "5fb5",
+      "name": "mahmoud",
+      "email": "mahmoud@yahoo.com",
+      "password": "P@ssw00rd",
+      "confirmPassword": "P@ssw00rd"
+    },
+    {
+      "id": "2fc5",
+      "name": "hazem",
+      "email": "hazem@gmail.com",
+      "password": "Hazem@123",
+      "confirmPassword": "Hazem@123"
+    },
+    {
+      "id": "04e2",
+      "name": "farah",
+      "email": "farah@gmail.com",
+      "password": "Farah@123",
+      "confirmPassword": "Farah@123"
+    },
+    {
+      "id": "22d5",
+      "name": "sara",
+      "email": "sara@gmail.com",
+      "password": "Bc@WWEGQL6cs@d",
+      "confirmPassword": "Bc@WWEGQL6cs@d"
+    },
+    {
+      "id": "91fa",
+      "name": "adgjj",
+      "email": "www.darwa@gmail.com",
+      "password": "M@rwa123",
+      "confirmPassword": "M@rwa123"
+    },
+    {
+      "id": "dad3",
+      "name": "mahmoud abdelaal",
+      "email": "www.marwaelgorn@gmail.com",
+      "password": "P@ssw00rd",
+      "confirmPassword": "P@ssw00rd"
+    },
+    {
+      "id": "70fc",
+      "name": "Marwa",
+      "email": "marwa@gmail.com",
+      "password": "P@ssw00rd",
+      "confirmPassword": "P@ssw00rd"
+    },
+    {
+      "id": "28f8",
+      "name": "username",
+      "email": "username@gmail.com",
+      "password": "P@ssw00rd",
+      "confirmPassword": "P@ssw00rd"
+    },
+    {
+      "id": "a766",
+      "name": "menna",
+      "email": "menna@gmail.com",
+      "password": "P@ssw00rd",
+      "confirmPassword": "P@ssw00rd"
+    }
   ]
 }
