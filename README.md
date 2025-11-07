@@ -1,23 +1,145 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛍️ Shopery
 
-Currently, two official plugins are available:
+**Shopery** is a modern e-commerce web application built with **React (Vite)** for the frontend and **JSON Server** as a mock REST API to simulate backend operations.  
+It delivers a smooth, responsive, and engaging shopping experience with dynamic product management and a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
+- 🛒 Browse and filter products  
+- ➕ Add and remove items from the shopping cart  
+- 📱 Responsive and mobile-friendly design  
+- ✅ Form validation using **Formik** and **Yup**  
+- 🔄 API communication via **Axios**  
+- 💾 Local **JSON Server** for backend simulation  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tech Stack
+**Frontend:** React, Vite, React Router DOM, Axios, Bootstrap, React Icons  
+**Backend:** JSON Server (Fake REST API)  
+**Styling:** Bootstrap 5 + Custom CSS  
+**Validation:** Formik & Yup  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+## ⚙️ Installation & Setup
 
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/MarwaElgorn/shopery.git
+cd shopery
+````
 
+### 2️⃣ Install dependencies
 
+```bash
+npm install
+```
 
-<!-- 
-// "categories": [ { "id": "1", "name": "Fresh Fruit", "image": "/Categories/image 1.svg" }, { "id": "2", "name": "Fresh Vegetables", "image": "/Categories/image 1 (1).svg" }, { "id": "3", "name": "Meat & Fish", "image": "/Categories/image 1 (2).svg" }, { "id": "4", "name": "Snacks", "image": "/Categories/image 1 (3).svg" }, { "id": "5", "name": "Beverages", "image": "/Categories/image 1 (4).svg" }, { "id": "6", "name": "Beauty & Health", "image": "/Categories/image 1 (5).svg" }, { "id": "7", "name": "Bread & Bakery", "image": "/Categories/image 1 (6).svg" }, { "id": "8", "name": "Baking Needs", "image": "/Categories/image 1 (7).svg" }, { "id": "9", "name": "Cooking", "image": "/Categories/image 1 (8).svg" }, { "id": "10", "name": "Diabetic Food", "image": "/Categories/image 1 (9).svg" }, { "id": "11", "name": "Dish Detergents", "image": "/Categories/image 1 (10).svg" }, { "id": "12", "name": "Oil", "image": "/Categories/image 1 (11).svg" } -->
+### 3️⃣ Run the backend (JSON Server)
+
+```bash
+npm run server
+```
+
+> The server will start on **[http://localhost:5000](http://localhost:5000)**
+
+### 4️⃣ Run the frontend (React + Vite)
+
+```bash
+npm run dev
+```
+
+> Open the app on **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 🌐 Deployment Guide
+
+### 🔹 Backend (JSON Server)
+
+To host your mock API:
+
+1. Go to [Render](https://render.com)
+2. Create a **New Web Service**
+3. Connect your GitHub repository
+4. Set:
+
+   * **Build Command:** `npm install`
+   * **Start Command:** `npm run server`
+5. Deploy — Render will give you a live API endpoint like:
+
+   ```
+   https://shopery-api.onrender.com/products
+   ```
+
+---
+
+### 🔹 Frontend (React + Vite)
+
+To host your React app:
+
+1. In your frontend code, replace all local API URLs (`http://localhost:5000`) with the Render API link.
+2. Build the app:
+
+   ```bash
+   npm run build
+   ```
+3. Deploy the `dist` folder using one of the following:
+
+   * [Netlify](https://www.netlify.com)
+   * [Vercel](https://vercel.com)
+
+---
+
+## 📁 Project Structure
+
+```
+shopery/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── assets/
+│   └── App.jsx
+│
+├── server/
+│   └── db.json
+│
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📸 Preview
+
+Here’s a quick look at **Shopery** 👇
+
+![Shopery Screenshot](./src/assets/01_Homepage.png)
+
+---
+
+## 🧑‍💻 Author
+
+**Marwa Elgorn**
+Front-End Developer passionate about creating dynamic, user-friendly, and responsive web applications.
+
+📫 **Connect with me:**
+
+* [GitHub](https://github.com/MarwaElgorn)
+* [LinkedIn](https://www.linkedin.com/in/marwa-elgorn/)
+
+---
+
+## 🪄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+```
+
+---
+
