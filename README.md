@@ -161,33 +161,18 @@ SHOPERY/
 ---
 ## 🖼️ Screenshots
 
-<div align="center">
+Here are the main pages of the project (you can find them all inside the `screenshots` folder):
 
-<table>
-  <tr>
-    <td><img src="./screenshots/homepage.png" width="360" alt="Home Page"/></td>
-    <td><img src="./screenshots/sign-in.png" width="360" alt="Login Page"/></td>
-  </tr>
-  <tr>
-    <td><img src="./screenshots/sign-up.png" width="360" alt="Sign Up Page"/></td>
-    <td><img src="./screenshots/Wishlist.png" width="360" alt="Wishlist Page"/></td>
-  </tr>
-  <tr>
-    <td><img src="./screenshots/shopping_cart.png" width="360" alt="Cart Page"/></td>
-    <td><img src="./screenshots/protected-routing.png" width="360" alt="Protected Routing"/></td>
-  </tr>
-  <tr>
-    <td><img src="./screenshots/blog_list.png" width="360" alt="Blog Page"/></td>
-    <td><img src="./screenshots/contact-us.png" width="360" alt="Contact Us"/></td>
-  </tr>
-  <tr>
-    <td><img src="./screenshots/about.png" width="360" alt="About Page"/></td>
-    <td><img src="./screenshots/error-page.png" width="360" alt="Error Page"/></td>
-  </tr>
-</table>
-
-</div>
-
+- 🏠 **Home Page:** `./screenshots/homepage.png`  
+- 🔑 **Login Page:** `./screenshots/sign-in.png`  
+- 📝 **Sign Up Page:** `./screenshots/sign-up.png`  
+- 💖 **Wishlist Page:** `./screenshots/Wishlist.png`  
+- 🛒 **Cart Page:** `./screenshots/shopping_cart.png`  
+- 🔐 **Protected Routing:** `./screenshots/protected-routing.png`  
+- 📰 **Blog Page:** `./screenshots/blog_list.png`  
+- 📞 **Contact Us Page:** `./screenshots/contact-us.png`  
+- 👩‍🌾 **About Page:** `./screenshots/about.png`  
+- ⚠️ **Error Page:** `./screenshots/error-page.png`  
 
 ---
 
