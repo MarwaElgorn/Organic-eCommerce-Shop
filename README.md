@@ -161,18 +161,21 @@ SHOPERY/
 ---
 ## 🖼️ Screenshots
 
-Here are the main pages of the project (you can find them all inside the `screenshots` folder):
+Below is a list of all main pages included in the project.  
+All images are located in the `/screenshots` folder inside the project directory.
 
-- 🏠 **Home Page:** `./screenshots/homepage.png`  
-- 🔑 **Login Page:** `./screenshots/sign-in.png`  
-- 📝 **Sign Up Page:** `./screenshots/sign-up.png`  
-- 💖 **Wishlist Page:** `./screenshots/Wishlist.png`  
-- 🛒 **Cart Page:** `./screenshots/shopping_cart.png`  
-- 🔐 **Protected Routing:** `./screenshots/protected-routing.png`  
-- 📰 **Blog Page:** `./screenshots/blog_list.png`  
-- 📞 **Contact Us Page:** `./screenshots/contact-us.png`  
-- 👩‍🌾 **About Page:** `./screenshots/about.png`  
-- ⚠️ **Error Page:** `./screenshots/error-page.png`  
+| 🧭 **Page** | 📁 **File Path** |
+|-------------|------------------|
+| 🏠 Home Page | `./screenshots/homepage.png` |
+| 🔑 Login Page | `./screenshots/sign-in.png` |
+| 📝 Sign Up Page | `./screenshots/sign-up.png` |
+| 💖 Wishlist Page | `./screenshots/Wishlist.png` |
+| 🛒 Cart Page | `./screenshots/shopping_cart.png` |
+| 🔐 Protected Routing | `./screenshots/protected-routing.png` |
+| 📰 Blog Page | `./screenshots/blog_list.png` |
+| 📞 Contact Us Page | `./screenshots/contact-us.png` |
+| 👩‍🌾 About Page | `./screenshots/about.png` |
+| ⚠️ Error Page | `./screenshots/error-page.png` |
 
 ---
 
