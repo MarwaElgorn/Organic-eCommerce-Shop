@@ -1,145 +1,209 @@
 
-# 🛍️ Shopery
+# 🛍️ Shopery – Organic eCommerce Website
 
-**Shopery** is a modern e-commerce web application built with **React (Vite)** for the frontend and **JSON Server** as a mock REST API to simulate backend operations.  
-It delivers a smooth, responsive, and engaging shopping experience with dynamic product management and a clean UI.
+A modern and responsive **React eCommerce web application**  
+It allows users to browse organic products, add them to cart or wishlist, and register or log in to shop securely.
 
 ---
 
 ## 🚀 Features
-- 🛒 Browse and filter products  
-- ➕ Add and remove items from the shopping cart  
-- 📱 Responsive and mobile-friendly design  
-- ✅ Form validation using **Formik** and **Yup**  
-- 🔄 API communication via **Axios**  
-- 💾 Local **JSON Server** for backend simulation  
+
+### 🔐 Authentication System
+- Built using **Formik** and **Yup** for form handling and validation.  
+- Prevents duplicate accounts by checking if the email already exists before signup.  
+- Displays a **personalized welcome message** after successful login.  
+- Uses **JSON Server** as a mock backend to store users’ data.  
+
+### 🧭 Protected Routing
+- Implemented with **React Router v7**.  
+- Only authenticated users can access the **Cart** and **Wishlist** pages.  
+- Redirects unauthenticated users to the **Login** page automatically.
+
+### 🛒 Cart & Wishlist
+- Managed using **React Hooks** for dynamic state updates.  
+- Items can be added or removed instantly.  
+- Quantity and total prices update in real time.  
+- Data is stored locally for session persistence.
+
+### 💄 UI / UX
+- Based on the Figma design for a clean, modern shopping experience.  
+- Responsive layout with **React Bootstrap** and **Bootstrap 5**.  
+- Icons from **React Icons** and **FontAwesome**.  
+- Smooth loading animations via **React Loader Spinner**.
+
+### 🌐 API & Data
+- **Axios** handles all HTTP requests (GET, POST, DELETE).  
+- Backend simulation via **JSON Server** (`server/db.json`).  
+- Easy to test and modify locally.
 
 ---
 
 ## 🧠 Tech Stack
-**Frontend:** React, Vite, React Router DOM, Axios, Bootstrap, React Icons  
-**Backend:** JSON Server (Fake REST API)  
-**Styling:** Bootstrap 5 + Custom CSS  
-**Validation:** Formik & Yup  
+
+| Category | Tools / Libraries |
+|-----------|-------------------|
+| **Frontend** | React 19.1.1, Vite |
+| **Styling** | Bootstrap 5, React Bootstrap |
+| **Routing** | React Router DOM 7.9.3 |
+| **Forms & Validation** | Formik, Yup |
+| **API Requests** | Axios |
+| **Icons** | FontAwesome, React Icons |
+| **Mock Backend** | JSON Server |
+| **Utilities** | React Hooks, Prettier, ESLint |
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/MarwaElgorn/shopery.git
-cd shopery
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/shopery.git
+   cd shopery
 ````
 
-### 2️⃣ Install dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Run the backend (JSON Server)
-
-```bash
-npm run server
-```
-
-> The server will start on **[http://localhost:5000](http://localhost:5000)**
-
-### 4️⃣ Run the frontend (React + Vite)
-
-```bash
-npm run dev
-```
-
-> Open the app on **[http://localhost:5173](http://localhost:5173)**
-
----
-
-## 🌐 Deployment Guide
-
-### 🔹 Backend (JSON Server)
-
-To host your mock API:
-
-1. Go to [Render](https://render.com)
-2. Create a **New Web Service**
-3. Connect your GitHub repository
-4. Set:
-
-   * **Build Command:** `npm install`
-   * **Start Command:** `npm run server`
-5. Deploy — Render will give you a live API endpoint like:
-
-   ```
-   https://shopery-api.onrender.com/products
-   ```
-
----
-
-### 🔹 Frontend (React + Vite)
-
-To host your React app:
-
-1. In your frontend code, replace all local API URLs (`http://localhost:5000`) with the Render API link.
-2. Build the app:
+2. **Install dependencies**
 
    ```bash
-   npm run build
+   npm install
    ```
-3. Deploy the `dist` folder using one of the following:
 
-   * [Netlify](https://www.netlify.com)
-   * [Vercel](https://vercel.com)
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Start the mock backend**
+
+   ```bash
+   npm run server
+   # or
+   json-server --watch server/db.json --port 5000
+   ```
+
+5. **Open in your browser**
+
+   ```
+   http://localhost:5173
+   ```
 
 ---
 
-## 📁 Project Structure
-
-```
-shopery/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── context/
-│   ├── assets/
-│   └── App.jsx
-│
+## 📂 Project Structure
+SHOPERY/
+├── node_modules/
+├── public/
+├── screenshots/ # All project preview images
+│ ├── homepage.png
+│ ├── sign-in.png
+│ ├── sign-up.png
+│ ├── Wishlist.png
+│ ├── shopping_cart.png
+│ ├── protected-routing.png
+│ ├── blog_list.png
+│ ├── contact-us.png
+│ ├── about.png
+│ └── error-page.png
 ├── server/
-│   └── db.json
-│
+│ └── db.json # JSON Server mock data
+├── src/
+│ ├── Api/ # Axios configuration or API calls
+│ ├── assets/ # Images, icons, etc.
+│ ├── Components/ # Reusable UI components
+│ │ ├── Banner/
+│ │ ├── Deals/
+│ │ ├── Features/
+│ │ ├── Footer/
+│ │ ├── Header/
+│ │ ├── Instagram/
+│ │ └── Vector/
+│ ├── Context/ # React Context for global states
+│ │ ├── ShopContext.js
+│ │ ├── ShopProvider.jsx
+│ │ ├── UserContext.js
+│ │ └── UserProvider.jsx
+│ ├── Layout/ # Layout components (Main & Shared)
+│ │ ├── Mainlayout.jsx
+│ │ └── Sharelayout.jsx
+│ ├── Pages/ # Application pages
+│ ├── ProtectedRoute/ # Route protection logic
+│ │ └── ProtectedRoute.jsx
+│ ├── Styles/ # CSS or SCSS files
+│ ├── main.jsx # React entry point
+│ └── index.css
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── package-lock.json
+├── README.md
+├── TestComponent.jsx
 └── vite.config.js
+
+---
+
+## 🧾 Example Mock Data (`server/db.json`)
+
+```json
+{
+  "users": [
+    { "id": 1, "name": "Marwa", "email": "marwa@gmail.com", "password": "123456" }
+  ],
+  "products": [
+    { "id": 1, "name": "Organic Apple", "price": 25, "image": "/images/apple.png" }
+  ],
+  "cart": [],
+  "wishlist": []
+}
 ```
 
 ---
+## 🖼️ Screenshots
 
-## 📸 Preview
+<p align="center">
+  <img src="./screenshots/homepage.png" width="400" alt="Home Page"/>
+  <img src="./screenshots/sign-in.png" width="400" alt="Login Page"/>
+</p>
 
-Here’s a quick look at **Shopery** 👇
+<p align="center">
+  <img src="./screenshots/sign-up.png" width="400" alt="Sign Up Page"/>
+  <img src="./screenshots/Wishlist.png" width="400" alt="Wishlist Page"/>
+</p>
 
-![Shopery Screenshot](./src/assets/01_Homepage.png)
+<p align="center">
+  <img src="./screenshots/shopping_cart.png" width="400" alt="Cart Page"/>
+  <img src="./screenshots/protected-routing.png" width="400" alt="Protected Routing"/>
+</p>
+
+<p align="center">
+  <img src="./screenshots/blog_list.png" width="400" alt="Blog Page"/>
+  <img src="./screenshots/contact-us.png" width="400" alt="Contact Us"/>
+</p>
+
+<p align="center">
+  <img src="./screenshots/about.png" width="400" alt="About Page"/>
+  <img src="./screenshots/error-page.png" width="400" alt="Error Page"/>
+</p>
+
 
 ---
 
-## 🧑‍💻 Author
+## 💡 Future Enhancements
 
-**Marwa Elgorn**
-Front-End Developer passionate about creating dynamic, user-friendly, and responsive web applications.
-
-📫 **Connect with me:**
-
-* [GitHub](https://github.com/MarwaElgorn)
-* [LinkedIn](https://www.linkedin.com/in/marwa-elgorn/)
+* Integrate real backend (Firebase or Node.js).
+* Add advanced filters & search.
+* Checkout & payment gateway integration.
+* User profile and order history.
+* Dark mode toggle 🌙.
 
 ---
 
-## 🪄 License
+## 👩‍💻 Author
 
-This project is open-source and available under the [MIT License](LICENSE).
-
-```
+**Marwa [Your Full Name]**
+Front-End Developer | React Enthusiast
+💼 [LinkedIn](https://www.linkedin.com/in/marwa-elgorn/) • 🐙 [GitHub](https://github.com/MarwaElgorn)
 
 ---
+
 
