@@ -109,7 +109,7 @@ All images are located in the `/screenshots` folder inside the project directory
 
 ## 📂 Project Structure
 
-SHOPERY/
+```SHOPERY/
 ├── node_modules/
 ├── public/
 ├── screenshots/ # All project preview images
@@ -158,12 +158,12 @@ SHOPERY/
 ├── README.md
 ├── TestComponent.jsx
 └── vite.config.js
-
+```
 ---
 
 ## 🧾 Example Mock Data (`server/db.json`)
 
-json
+```json
 {
   "users": [
     { "id": 1, "name": "Marwa", "email": "marwa@gmail.com", "password": "123456" }
@@ -173,8 +173,8 @@ json
   ],
   "cart": [],
   "wishlist": []
-}
----
+} ```
+ ---
 
 
 
