@@ -161,30 +161,32 @@ SHOPERY/
 ---
 ## 🖼️ Screenshots
 
-<p align="center">
-  <img src="./screenshots/homepage.png" width="400" alt="Home Page"/>
-  <img src="./screenshots/sign-in.png" width="400" alt="Login Page"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="./screenshots/sign-up.png" width="400" alt="Sign Up Page"/>
-  <img src="./screenshots/Wishlist.png" width="400" alt="Wishlist Page"/>
-</p>
+<table>
+  <tr>
+    <td><img src="./screenshots/homepage.png" width="360" alt="Home Page"/></td>
+    <td><img src="./screenshots/sign-in.png" width="360" alt="Login Page"/></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/sign-up.png" width="360" alt="Sign Up Page"/></td>
+    <td><img src="./screenshots/Wishlist.png" width="360" alt="Wishlist Page"/></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/shopping_cart.png" width="360" alt="Cart Page"/></td>
+    <td><img src="./screenshots/protected-routing.png" width="360" alt="Protected Routing"/></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/blog_list.png" width="360" alt="Blog Page"/></td>
+    <td><img src="./screenshots/contact-us.png" width="360" alt="Contact Us"/></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/about.png" width="360" alt="About Page"/></td>
+    <td><img src="./screenshots/error-page.png" width="360" alt="Error Page"/></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="./screenshots/shopping_cart.png" width="400" alt="Cart Page"/>
-  <img src="./screenshots/protected-routing.png" width="400" alt="Protected Routing"/>
-</p>
-
-<p align="center">
-  <img src="./screenshots/blog_list.png" width="400" alt="Blog Page"/>
-  <img src="./screenshots/contact-us.png" width="400" alt="Contact Us"/>
-</p>
-
-<p align="center">
-  <img src="./screenshots/about.png" width="400" alt="About Page"/>
-  <img src="./screenshots/error-page.png" width="400" alt="Error Page"/>
-</p>
+</div>
 
 
 ---
