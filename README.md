@@ -75,41 +75,40 @@ All images are located in the `/screenshots` folder inside the project directory
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**
-   ```bash
+   bash
    git clone https://github.com/yourusername/shopery.git
    cd shopery
-````
+
 
 2. **Install dependencies**
 
-   ```bash
+   bash
    npm install
-   ```
+   
 
 3. **Start the development server**
 
-   ```bash
+   bash
    npm run dev
-   ```
+ 
 
 4. **Start the mock backend**
 
-   ```bash
+  bash
    npm run server
    # or
    json-server --watch server/db.json --port 5000
-   ```
+
 
 5. **Open in your browser**
 
-   ```
    http://localhost:5173
-   ```
+
 
 ---
 
 ## 📂 Project Structure
-```
+
 SHOPERY/
 ├── node_modules/
 ├── public/
@@ -159,12 +158,12 @@ SHOPERY/
 ├── README.md
 ├── TestComponent.jsx
 └── vite.config.js
-```
+
 ---
 
 ## 🧾 Example Mock Data (`server/db.json`)
 
-```json
+json
 {
   "users": [
     { "id": 1, "name": "Marwa", "email": "marwa@gmail.com", "password": "123456" }
@@ -175,7 +174,7 @@ SHOPERY/
   "cart": [],
   "wishlist": []
 }
-```
+---
 
 
 
