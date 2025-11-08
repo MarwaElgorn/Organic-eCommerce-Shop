@@ -173,7 +173,8 @@ All images are located in the `/screenshots` folder inside the project directory
   ],
   "cart": [],
   "wishlist": []
-} ```
+}
+```
  ---
 
 
