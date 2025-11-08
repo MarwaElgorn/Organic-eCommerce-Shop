@@ -13,24 +13,24 @@ It allows users to browse organic products, add them to cart or wishlist, and re
 - Prevents duplicate accounts by checking if the email already exists before signup.  
 - Displays a **personalized welcome message** after successful login.  
 - Uses **JSON Server** as a mock backend to store users’ data.  
-
+---
 ### 🧭 Protected Routing
 - Implemented with **React Router v7**.  
 - Only authenticated users can access the **Cart** and **Wishlist** pages.  
 - Redirects unauthenticated users to the **Login** page automatically.
-
+---
 ### 🛒 Cart & Wishlist
 - Managed using **React Hooks** for dynamic state updates.  
 - Items can be added or removed instantly.  
 - Quantity and total prices update in real time.  
 - Data is stored locally for session persistence.
-
+---
 ### 💄 UI / UX
 - Based on the Figma design for a clean, modern shopping experience.  
 - Responsive layout with **React Bootstrap** and **Bootstrap 5**.  
 - Icons from **React Icons** and **FontAwesome**.  
 - Smooth loading animations via **React Loader Spinner**.
-
+---
 ### 🌐 API & Data
 - **Axios** handles all HTTP requests (GET, POST, DELETE).  
 - Backend simulation via **JSON Server** (`server/db.json`).  
@@ -90,6 +90,7 @@ It allows users to browse organic products, add them to cart or wishlist, and re
 ---
 
 ## 📂 Project Structure
+```
 SHOPERY/
 ├── node_modules/
 ├── public/
@@ -139,7 +140,7 @@ SHOPERY/
 ├── README.md
 ├── TestComponent.jsx
 └── vite.config.js
-
+```
 ---
 
 ## 🧾 Example Mock Data (`server/db.json`)
@@ -204,6 +205,6 @@ SHOPERY/
 Front-End Developer | React Enthusiast
 💼 [LinkedIn](https://www.linkedin.com/in/marwa-elgorn/) • 🐙 [GitHub](https://github.com/MarwaElgorn)
 
----
+
 
 
