@@ -55,52 +55,52 @@ It allows users to browse organic products, add them to cart or wishlist, and re
 ## Screenshots
 
 ### 🏠 Home Page
-<img src="./screenshots/homepage.png" width="550"/>
+<img src="./screenshots/homepage.png" width="750"/>
 
 ---
 
 ### 🔑 Login Page
-<img src="./screenshots/sign-in.png" width="550"/>
+<img src="./screenshots/sign-in.png" width="750"/>
 
 ---
 
 ### 📝 Sign Up Page
-<img src="./screenshots/sign-up.png" width="550"/>
+<img src="./screenshots/sign-up.png" width="750"/>
 
 ---
 
 ### ❤️ Wishlist Page
-<img src="./screenshots/Wishlist.png" width="550"/>
+<img src="./screenshots/Wishlist.png" width="750"/>
 
 ---
 
 ### 🛒 Cart Page
-<img src="./screenshots/shopping_cart.png" width="550"/>
+<img src="./screenshots/shopping_cart.png" width="750"/>
 
 ---
 
 ### 🔐 Protected Routing
-<img src="./screenshots/protected-routing.png" width="550"/>
+<img src="./screenshots/protected-routing.png" width="750"/>
 
 ---
 
 ### 📰 Blog Page
-<img src="./screenshots/blog_list.png" width="550"/>
+<img src="./screenshots/blog_list.png" width="750"/>
 
 ---
 
 ### 📬 Contact Us Page
-<img src="./screenshots/contact-us.png" width="550"/>
+<img src="./screenshots/contact-us.png" width="750"/>
 
 ---
 
 ### 👤 About Page
-<img src="./screenshots/about.png" width="550"/>
+<img src="./screenshots/about.png" width="750"/>
 
 ---
 
 ### ⚠️ Error Page
-<img src="./screenshots/error-page.png" width="550"/>
+<img src="./screenshots/error-page.png" width="750"/>
 
 
 ---
