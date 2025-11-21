@@ -52,23 +52,25 @@ It allows users to browse organic products, add them to cart or wishlist, and re
 | **Utilities** | React Hooks, Prettier, ESLint |
 
 ---
-## 🖼️ Screenshots
 
-Below is a list of all main pages included in the project.  
+## Screenshots
+
+Below is a list of all main pages included in the project.
 All images are located in the `/screenshots` folder inside the project directory.
 
-| 🧭 **Page** | 📁 **File Path** |
-|-------------|------------------|
-| 🏠 Home Page | `./screenshots/homepage.png` |
-| 🔑 Login Page | `./screenshots/sign-in.png` |
-| 📝 Sign Up Page | `./screenshots/sign-up.png` |
-| 💖 Wishlist Page | `./screenshots/Wishlist.png` |
-| 🛒 Cart Page | `./screenshots/shopping_cart.png` |
-| 🔐 Protected Routing | `./screenshots/protected-routing.png` |
-| 📰 Blog Page | `./screenshots/blog_list.png` |
-| 📞 Contact Us Page | `./screenshots/contact-us.png` |
-| 👩‍🌾 About Page | `./screenshots/about.png` |
-| ⚠️ Error Page | `./screenshots/error-page.png` |
+| Page | Screenshot |
+|------|------------|
+| 🏠 Home Page | <img src="./screenshots/homepage.png" width="300"/> |
+| 🔑 Login Page | <img src="./screenshots/sign-in.png" width="300"/> |
+| 📝 Sign Up Page | <img src="./screenshots/sign-up.png" width="300"/> |
+| ❤️ Wishlist Page | <img src="./screenshots/Wishlist.png" width="300"/> |
+| 🛒 Cart Page | <img src="./screenshots/shopping_cart.png" width="300"/> |
+| 🔐 Protected Routing | <img src="./screenshots/protected-routing.png" width="300"/> |
+| 📰 Blog Page | <img src="./screenshots/blog_list.png" width="300"/> |
+| 📬 Contact Us Page | <img src="./screenshots/contact-us.png" width="300"/> |
+| 👤 About Page | <img src="./screenshots/about.png" width="300"/> |
+| ⚠️ Error Page | <img src="./screenshots/error-page.png" width="300"/> |
+
 
 ---
 
