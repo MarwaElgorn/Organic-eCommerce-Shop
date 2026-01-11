@@ -224,7 +224,7 @@ It allows users to browse organic products, add them to cart or wishlist, and re
 
 ## 👩‍💻 Author
 
-**Marwa [Your Full Name]**
+**Marwa Elgorn**
 Front-End Developer | React Enthusiast
 💼 [LinkedIn](https://www.linkedin.com/in/marwa-elgorn/) • 🐙 [GitHub](https://github.com/MarwaElgorn)
 
